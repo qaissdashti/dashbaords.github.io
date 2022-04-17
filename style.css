@@ -1,0 +1,56 @@
+.nav-list {
+    background-color: rgb(181, 178, 178);
+    font-family: Montserrat, sans-serif;
+    box-shadow: 10px;
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.nav-item {
+    
+    list-style: none;
+    margin-right: 2rem;
+}
+
+.nav-item a:hover{
+    color:dodgerblue;
+}
+
+
+.nav-item:first-child{
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.btn {
+    background-color:whitesmoke;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.title-header{
+    
+    font-style: italic;
+    text-align: left;
+    margin: auto;
+}
+
+.headings {
+    inline-size: 550px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}

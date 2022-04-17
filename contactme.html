@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Statistics</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <navbar class="nav">
+    <ul class="nav-list">
+        <li class="nav-item"><a href="index.html">Home</a></li>
+        <li class="nav-item"><a href="customers.html">Our Customers</a></li>
+        <li class="nav-item"><a href="research.html">Research</a></li>
+        <li class="nav-item"><a href="tesfile.html">link</a></li>
+        <li class="nav-item"><a href="contactme.html"><button class="btn"> Contact us</button></a></li>
+    </ul>
+</navbar>
+
+<body class="all-body">
+
+
+<div class="third">
+    <h2 class="contactus">Contact us</h2>
+</div>
+<button class="uncover" onclick="myFunction()">Click to uncover number</button>
+
+<div id="myDIV">
+    Call at: 95585498
+</div>
+
+
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
+
+</body>
+
+
+</html>
