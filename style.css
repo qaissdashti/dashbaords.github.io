@@ -1,4 +1,6 @@
 .nav-list {
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(181, 178, 178);
     font-family: Montserrat, sans-serif;
     box-shadow: 10px;
@@ -6,7 +8,7 @@
     padding: 1rem 0;
     border-radius: 5px;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     align-items: center;
     font-size: 1.5rem;
     color: black;
@@ -43,7 +45,7 @@
 
 .title-header{
     
-    font-style: italic;
+    
     text-align: left;
     margin: auto;
 }
@@ -54,3 +56,40 @@
     border-radius: 5px;
     background-color: aliceblue;
 }
+
+.uncover {
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+}
+
+.uncover:hover {
+    color:rgb(0, 82, 163);
+}
+
+.uncover:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+  }
+
+  .button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+    padding: 0.5rem 1rem;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+  }
